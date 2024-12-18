@@ -477,6 +477,10 @@
               <button data-filter-btn>後端開發</button>
             </li>
 
+            <li class="filter-item">
+              <button data-filter-btn>其他</button>
+            </li>
+
           </ul>
 
           <div class="filter-select-box">
@@ -507,6 +511,10 @@
 
               <li class="select-item">
                 <button data-select-item>後端開發</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>其他</button>
               </li>
 
             </ul>
@@ -696,6 +704,52 @@
                         <a href="https://xin-2419.github.io/XiN-Resume-/" target="_blank" class="demoBtn">Demo</a>
                         <a href="https://github.com/XiN-2419/XiN-Resume-" target="_blank" class="demoBtn githubBtn">Github前端Repo</a>
                       </li>
+                    </ul>
+                  </dvi>
+                </div>
+
+              </span>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-project-item data-category="其他">
+              <span>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5/1.jpg" alt="其他-1" loading="lazy">
+                </figure>
+
+                <h3 class="project-title" data-project-title>簡易生產管理(GAS+LineBot)</h3>
+
+                <p class="project-category">其他</p>
+
+                <div class="modal-project-detail">
+                  <img src="./assets/images/project-5/1.jpg" alt="其他-1" data-project-photo>
+                  <img src="./assets/images/project-5/2.jpg" alt="其他-2" data-project-photo>
+                  <img src="./assets/images/project-5/3.jpg" alt="其他-3" data-project-photo>
+                  <img src="./assets/images/project-5/4.jpg" alt="其他-4" data-project-photo>
+                  <div data-project-text>
+                    <ul>
+                      <li>
+                        這是2022年工作時所寫的小程式。<br>
+                        當時公司生產管理的流程為: 生管人員製單->將Excel上傳NAS->Line通知各部門自行下載。<br>
+                        為了優化這個流程，於是我寫了這支程式。在生管人員新增生產單後，透過Google App Script，將此生產單傳至各部門的各Google Sheets，並且透過Line Bot自動發送訊息。
+                      </li>
+                      <li>
+                        <ul>額外的附加功能:
+                          <li>在「生產單簡表」的部分，可用於讓各部門回報現況，其將透過Google App Script將回報發送至各部門的Google Sheet。</li>
+                          <li>生管人員新增生產單時，會同時在各部門的Google Sheets「日曆總表」建立出貨日期，以方便大家留意出貨期限</li>
+                          <li>「日曆總表」以設定規則，只要更改年份或月份，便會自行調整日期</li>
+                        </ul>
+                      </li>
+
+                      <li style="list-style-type: none;" class="demoContainer">
+                        <a href="https://docs.google.com/spreadsheets/d/1DtVTZDB3XHb7ee5B5gLrXOrtol42wa0kMkDMM2lJRhU/edit?usp=sharing" target="_blank" class="demoBtn">Demo</a>
+                      </li>
+                      <p class="demoText">其他部門的Google Sheets和Line Bot，由於離職時已歸還帳號，故無法展示或截圖，請多包涵</p>
                     </ul>
                   </dvi>
                 </div>
