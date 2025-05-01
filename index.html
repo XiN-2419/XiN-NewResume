@@ -177,13 +177,13 @@
           </p>
 
           <p>
-            畢業後因工作需要，寫過批次檔，讓其他人員能透過程式刪除導致系統無法開啟的log檔；
-            因公司需求，寫過Google App Script，建立一個簡易的跨部門生產單系統；
-            因在遊戲平台上買賣需求，自學過Python爬蟲。
+            曾寫過批次檔，方便自動化刪除導致系統無法開啟的log檔；
+            曾為方便公司作業，寫過Google App Script，建立一個簡易的跨部門生產單系統；
+            曾因個人在遊戲平台上買賣需求，自學過Python爬蟲。
           </p>
 
           <p>
-            曾經把寫程式當作興趣，相信著「當興趣變成工作，就不再有趣」。可是現實太過殘酷，所以現在努力著將興趣變成生活的一部分。
+            曾經把寫程式當作興趣，在經過現實的洗禮後，現在努力著將興趣變成生活的一部分。
           </p>
 
         </section>
@@ -556,11 +556,11 @@
                   <img src="./assets/images/project-6/2.jpg" alt="前端開發-2" data-project-photo>
                   <img src="./assets/images/project-6/3.jpg" alt="前端開發-3" data-project-photo>
                   <div data-project-text>
-                    <ul>
-                      <li>使用Electron框架，將網頁包裝成桌面應用程式</li>
-                      <li>使用fs模組，將資料存放於本地端，並且可以進行兩個不同資料間的交叉比對</li>
-                      <li>使用Git進行版本控制</li>
-                      <li>透過map()函式建立資料，不寫死程式碼，以便擴展新卡包資料</li>
+                    <ul>使用技術與特點 :
+                      <li> Electron套件 : 將網頁包裝成桌面應用程式</li>
+                      <li> fs套件 : 將資料存放於本地端，並且可以進行兩個不同存檔間的交叉比對</li>
+                      <li> Git : 進行版本控制，每次出新組包時方便更新</li>
+                      <li> 不寫死程式碼，方便(自製小工具)爬蟲程式擴展新卡包資料</li>
 
                       <li style="list-style-type: none;" class="demoContainer">
                         <a href="https://github.com/XiN-2419/PTCGPCollectionTracker" target="_blank" class="demoBtn githubBtn">Github Repo</a>
@@ -593,26 +593,17 @@
                   <img src="./assets/images/project-1/5.jpg" alt="MERN專案-5" data-project-photo>
                   <img src="./assets/images/project-1/6.jpg" alt="MERN專案-6" data-project-photo>
                   <div data-project-text>
-                    <ul>
-                      <li style="list-style-type: disc;">
-                        MERN專案 : <br>
-                          P : MongoDB<br>
-                          E : Express<br>
-                          R : React<br>
-                          N : Node.js<br>
-                      </li>
+                    <ul> 使用技術與特點 :
+                      <li style="list-style-type: disc;"> MongoDB : 作為資料庫使用</li>
+                      <li style="list-style-type: disc;"> Express : 作為後端伺服器，以RESTful API風格建立完整的新增、刪除、修改和查看功能</li>
+                      <li style="list-style-type: disc;"> React : 透過React Hook渲染頁面</li>
+                      <li style="list-style-type: disc;"> Node.js : 後端伺服器環境以node.js建立</li>
+                      <li style="list-style-type: disc;">使用Git進行版本控制</li>
                       <li style="list-style-type: disc;"> 
-                        <ul>註冊和登入系統
+                        <ul>註冊和登入系統 :
                           <li>註冊時，前端會檢查「確認密碼」是否一致，後端會確認名稱與信箱是否與現有帳號重複</li>
-                          <li>註冊後，後端會將密碼透過Bcrypt套件加密</li>
+                          <li>註冊後，後端會將密碼透過Bcrypt套件加密，確保資料庫不會直接紀錄密碼</li>
                           <li>登入後，以JSON Web Token作資訊保存與驗證</li>
-                        </ul>
-                      </li>
-                      <li style="list-style-type: disc;">
-                        <ul>飯店搜尋系統
-                          <li style="font-weight: bold; color: yellow;">暫未設置模糊搜尋，地點需完整輸入(如高雄市、台北市)</li>
-                          <li>目前並未於各縣市皆創建飯店，縣市與飯店數量可見首頁「探索台灣」</li>
-                          <li>如未輸入地點，會推薦熱門飯店</li>
                         </ul>
                       </li>
                       <li style="list-style-type: disc;">
@@ -620,14 +611,11 @@
                           <li>
                             登入後，右上角會出現「後台系統」
                             <span style="list-style-type: none; color: gray;">可使用「帳號:123；密碼:123」登入；亦可自行註冊帳號後登入</span>
+                            <span style="list-style-type: none; color: gray;">API原先設計需登入為Admin才會出現，由於為Demo版，為了有更多觸及率，故拔除驗證功能</span>
                           </li>
                           <li>具備CRUD功能的飯店管理與帳號管理功能</li>
-                          <li>API原先設計需登入為Admin才會出現，由於為Demo版，為了有更多觸及率，故拔除驗證功能</li>
                         </ul>
                       </li>
-                      <li>使用Git進行版本控制</li>
-                      <li>並未設計響應式網頁，推薦使用1980*1080以上之裝置，可獲得最佳體驗</li>
-                      <li>部署於Render.com，因使用免費方案，故開啟時需要一段時間啟動</li>
 
                       <li style="list-style-type: none;" class="demoContainer">
                         <a href="https://boovago-frontend.onrender.com/" target="_blank" class="demoBtn">Demo</a>
@@ -635,6 +623,9 @@
                         <a href="https://github.com/XiN-2419/Boovago/tree/BackEnd" target="_blank" class="demoBtn githubBtn">Github後端Repo</a>
                       </li>
                       <p class="demoText"> *進入網頁後，後端冷啟動約需兩分鐘，敬請靜待後端啟動，以完整網頁體驗</p>
+                      <p class="demoText"> *目前並未於各縣市皆創建飯店，縣市與飯店數量可見首頁「探索台灣」</p>
+                      <p class="demoText"> *未設計響應式網頁，推薦使用1980*1080以上之裝置，可獲得最佳體驗</p>
+                      <p class="demoText" style="font-weight: bold; color: yellow;"> *暫未設置模糊搜尋，地點需完整輸入(如高雄市、台北市)</p>
                     </ul>
                   </div>
                 </div>
@@ -664,27 +655,36 @@
                   <img src="./assets/images/project-2/4.jpg" alt="Pern專案-4" data-project-photo>
                   <img src="./assets/images/project-2/5.jpg" alt="Pern專案-5" data-project-photo>
                   <img src="./assets/images/project-2/6.jpg" alt="Pern專案-6" data-project-photo>
+                  <img src="./assets/images/project-2/7.jpg" alt="Pern專案-6" data-project-photo>
+                  <img src="./assets/images/project-2/8.jpg" alt="Pern專案-6" data-project-photo>
+                  <img src="./assets/images/project-2/9.jpg" alt="Pern專案-6" data-project-photo>
+                  <img src="./assets/images/project-2/10.jpg" alt="Pern專案-6" data-project-photo>
                   <div data-project-text>
-                    <ul>
-                      <li>
-                        PERN專案 : <br>
-                          P : PostgreSQL<br>
-                          E : Express<br>
-                          R : React<br>
-                          N : Node.js<br>
-                      </li>
-                      <li> 具備完整的新增、刪除、修改和查看(CRUD)功能 </li>
-                      <li> 具備完整前後端：前端透過React建立使用者介面；後端透過Node.js+Express建立RESTful的API；資料庫則使用PostgreSQL</li>
-                      <li> 透過Bootstrap達到響應式網頁設計(RWD)，可以在各種裝置尺寸下呈現合適比例</li>
+                    <p>代辦事項網頁有兩個版本 : </p>
+                    <br>
+                    <ul> 版本一(圖1-圖6) - PERN專案 - 使用技術與特點 : 
+                      <li> PostgreSQL : 作為代辦事項資料庫</li>
+                      <li> Express : 作為後端伺服器，以RESTful API風格建立完整的新增、刪除、修改和查看功能</li>
+                      <li> React : 透過React Hook渲染頁面，並以Bootstrap達到響應式網頁設計(RWD)</li>
+                      <li> Node.js : 後端伺服器環境以node.js建立</li>
                       <li> 使用Git進行版本控制</li>
-                      <li> 部署於Render.com，因使用免費方案，故開啟時需要一段時間啟動</li>
                       
-                      <li style="list-style-type: none;" class="demoContainer">
-                        <a href="https://pern-todolist-fontend.onrender.com" target="_blank" class="demoBtn">Demo</a>
+                      <li style="list-style-type: none;">
                         <a href="https://github.com/XiN-2419/PERN-ToDoList-Fontend" target="_blank" class="demoBtn githubBtn">Github前端Repo</a>
                         <a href="https://github.com/XiN-2419/PERN-ToDoList-Backend" target="_blank" class="demoBtn githubBtn">Github後端Repo</a>
                       </li>
-                      <p class="demoText"> *進入網頁後，後端冷啟動約需兩分鐘，敬請靜待後端啟動，以完整網頁體驗</p>
+                      <p class="demoText"> *尚未找到無期限免費方案的PostgreSQL雲端空間，故暫無Demo網頁</p>
+                    </ul>
+                    <br>
+                    <ul> 版本二(圖7-圖10) - React前端網頁 - 使用技術與特點 : 
+                      <li> LocalStorage : 使用本地端的LocalStorage作為資料庫</li>
+                      <li> React : 透過React Hook渲染頁面</li>
+                      <li> 使用Git進行版本控制</li>
+                      
+                      <li style="list-style-type: none;">
+                        <a href="https://xin-2419.github.io/todolist-LocalStorage/" target="_blank" class="demoBtn">Demo</a>
+                        <a href="https://github.com/XiN-2419/todolist-LocalStorage" target="_blank" class="demoBtn githubBtn">Github Repo</a>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -712,11 +712,11 @@
                   <img src="./assets/images/project-3/2.jpg" alt="前端開發-2" data-project-photo>
                   <img src="./assets/images/project-3/3.jpg" alt="前端開發-3" data-project-photo>
                   <div data-project-text>
-                    <ul>
-                      <li>無第三方套件，沒有模板網頁的既視感!</li>
-                      <li>由 HTML + CSS + JavaScript 純手刻組成!</li>
-                      <li>響應式網頁設計，大大小小裝置都可以舒適觀看!</li>
-                      <li>使用Git進行版本控制，且程式碼設計具擴展性，方便未來持續新增!</li>
+                    <ul> 使用技術與特點 :
+                      <li> 無第三方套件，沒有模板網頁的既視感!</li>
+                      <li> 由 HTML + CSS + JavaScript 純手刻組成!</li>
+                      <li> 響應式網頁設計，大大小小裝置都可以舒適觀看!</li>
+                      <li> 使用Git進行版本控制，且程式碼設計具擴展性，方便未來持續新增!</li>
                     </ul>
                   </dvi>
                 </div>
@@ -724,7 +724,7 @@
               </span>
             </li>
 
-            <li class="project-item  active" data-filter-item data-project-item data-category="前端開發">
+            <li class="project-item  active" data-filter-item data-project-item data-category="後端開發">
               <span>
 
                 <figure class="project-img">
@@ -732,25 +732,32 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4/1.jpg" alt="前端開發-1" loading="lazy">
+                  <img src="./assets/images/project-4/1.jpg" alt="後端開發-1" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>(舊版)林新惇的線上履歷</h3>
+                <h3 class="project-title" data-project-title>自製小工具</h3>
 
-                <p class="project-category">前端開發</p>
+                <p class="project-category">後端開發</p>
 
                 <div class="modal-project-detail">
-                  <img src="./assets/images/project-4/1.jpg" alt="前端開發-1" data-project-photo>
+                  <img src="./assets/images/project-4/1.jpg" alt="後端開發-1" data-project-photo>
                   <div data-project-text>
-                    <ul>這是前一版的線上履歷，當時剛學會前端三大語言，就躍躍欲試的寫了這個網頁。現在看來雖然醜，也猶豫過要不要放上來，但就當作一個見證成長還有衝個作品數量吧!
-                      <li style="margin-top: 16px;">完全純手刻HTML+CSS+JavaScript，絕對沒有模組網站的味道</li>
-                      <li>響應式網頁 : 坐著看、躺著看，都可以</li>
-                      <li>使用Git進行版本控制</li>
-                      <li>程式碼設計不便於未來擴展，故開發新版、放棄此版本</li>
+                    <ul><b style="font-size: 1em;">「PTCGP卡片收藏追蹤」爬蟲自動更新卡包資訊</b> - 使用技術與特點 :
+                      <li> axios : 用於抓取網頁資料</li>
+                      <li> cheerio : 用於分析 HTML 結構，並提取目標資料</li>
+                      <li> fs : 將清洗後的資料儲存進卡包資訊</li>
 
-                      <li style="list-style-type: none;" class="demoContainer">
-                        <a href="https://xin-2419.github.io/XiN-Resume-/" target="_blank" class="demoBtn">Demo</a>
-                        <a href="https://github.com/XiN-2419/XiN-Resume-" target="_blank" class="demoBtn githubBtn">Github前端Repo</a>
+                      <li style="list-style-type: none;">
+                        <a href="https://xin-2419.github.io/XiN-Resume-/" target="_blank" class="noProvideBtn">因爬取特定網頁，故不公開程式</a>
+                      </li>
+                    </ul>
+                    <br>
+                    <ul> <b style="font-size: 1em;">網頁驗證碼自動辨識後填入</b> - 使用技術與特點 :
+                      <li> selenium-webdriver : 用於瀏覽器自動化擷取驗證碼，並於tesseract.js辨識後自動填入</li>
+                      <li> tesseract.js : 用於驗證碼的文字辨識，進行文件數位化和內容提取</li>
+
+                      <li style="list-style-type: none;">
+                        <a href="https://xin-2419.github.io/XiN-Resume-/" target="_blank" class="noProvideBtn">此為個人練習，為避免濫用，故不公開程式</a>
                       </li>
                     </ul>
                   </dvi>

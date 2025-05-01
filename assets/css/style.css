@@ -1006,7 +1006,20 @@ main {
 .githubBtn:hover {
   background: linear-gradient(135deg, #008000 0%, #008080 100%); 
 }
-
+.noProvideBtn {
+  background: linear-gradient(135deg, #f37650 0%, #fc0000 100%); 
+  border: none; 
+  border-radius: 12px; 
+  color: white; 
+  padding: 0.5em 1em;
+  font-size: var(--fs-6);
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block; 
+  cursor: not-allowed; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: all 0.3s ease;
+}
 
 /*-----------------------------------*\
   #RESPONSIVE
