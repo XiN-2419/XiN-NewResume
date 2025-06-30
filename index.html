@@ -46,9 +46,9 @@
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">林新惇</h1>
+          <h1 class="name" title="Richard hanrick" data-i18n-key="title_name">林新惇</h1>
 
-          <p class="title">懂一點後端的前端工程師</p>
+          <p class="title" data-i18n-key="title_role">懂一點後端的前端工程師</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -84,9 +84,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">出生年月</p>
+              <p class="contact-title" data-i18n-key="label_birth">出生年月</p>
 
-              <time datetime="1982-06-23">1991年10月</time>
+              <time data-i18n-key="label_birth_value">1991年10月</time>
             </div>
 
           </li>
@@ -98,9 +98,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">地區</p>
+              <p class="contact-title" data-i18n-key="label_location">地區</p>
 
-              <address>高雄市</address>
+              <address data-i18n-key="label_location_value">高雄市</address>
             </div>
 
           </li>
@@ -142,17 +142,20 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>關於我</button>
+            <button class="navbar-link  active" data-nav-link="關於我" data-i18n-key="nav_about">關於我</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>學經歷</button>
+            <button class="navbar-link" data-nav-link="學經歷" data-i18n-key="nav_resume">學經歷</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>作品集</button>
+            <button class="navbar-link" data-nav-link="作品集" data-i18n-key="nav_portfolio">作品集</button>
           </li>
 
+          <li>
+            <button id="lang-toggle" class="lang-btn">EN</button>
+          </li>
         </ul>
 
       </nav>
@@ -168,22 +171,22 @@
       <article class="about  active" data-page="關於我">
 
         <header>
-          <h2 class="h2 article-title">關於我</h2>
+          <h2 class="h2 article-title" data-i18n-key="nav_about">關於我</h2>
         </header>
 
         <section class="about-text">
-          <p>
+          <p data-i18n-key="about_p1">
             大學時因興趣使然，曾修習過C++、Java和MATLAB，以及計算機概論和資料結構。
           </p>
 
-          <p>
+          <p data-i18n-key="about_p2">
             曾寫過批次檔，方便自動化刪除導致系統無法開啟的log檔；
             曾為方便公司作業，寫過Google App Script，建立一個簡易的跨部門生產單系統；
             曾因個人在遊戲平台上買賣需求，自學過Python爬蟲。
           </p>
 
-          <p>
-            曾經把寫程式當作興趣，在經過現實的洗禮後，現在努力著將興趣變成生活的一部分。
+          <p data-i18n-key="about_p3">
+            自2023年離職後學習前端程式語言，相關作品可皆展示於「作品集」標籤。
           </p>
 
         </section>
@@ -194,7 +197,7 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">徽章</h3>
+          <h3 class="h3 service-title" data-i18n-key="label_badges">徽章</h3>
 
           <ul class="service-list">
 
@@ -226,7 +229,7 @@
 
         <section class="skill">
 
-          <h3 class="h3 skills-title">程式語言</h3>
+          <h3 class="h3 skills-title" data-i18n-key="label_skills">程式語言</h3>
 
           <ul class="skills-list content-card">
 
@@ -234,7 +237,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">HTML</h5>
-                <span>(熟練)</span>
+                <span data-i18n-key="skill_proficient">(熟練)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -247,7 +250,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">CSS</h5>
-                <span>(普通)</span>
+                <span data-i18n-key="skill_average">(普通)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -260,7 +263,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Bootstrap</h5>
-                <span>(普通)</span>
+                <span data-i18n-key="skill_average">(普通)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -273,7 +276,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">JavaScript</h5>
-                <span>(熟練)</span>
+                <span data-i18n-key="skill_proficient">(熟練)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -286,7 +289,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Node.js</h5>
-                <span>(熟練)</span>
+                <span data-i18n-key="skill_proficient">(熟練)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -299,7 +302,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">React</h5>
-                <span>(普通)</span>
+                <span data-i18n-key="skill_average">(普通)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -312,7 +315,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">PostgreSQL</h5>
-                <span>(尚可)</span>
+                <span data-i18n-key="skill_basic">(尚可)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -325,7 +328,7 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">MongoDB</h5>
-                <span>(尚可)</span>
+                <span data-i18n-key="skill_basic">(尚可)</span>
               </div>
 
               <div class="skill-progress-bg">
@@ -351,7 +354,7 @@
       <article class="resume" data-page="學經歷">
 
         <header>
-          <h2 class="h2 article-title">學經歷</h2>
+          <h2 class="h2 article-title" data-i18n-key="nav_resume">學經歷</h2>
         </header>
 
         <section class="timeline">
@@ -361,14 +364,14 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">教育程度</h3>
+            <h3 class="h3" data-i18n-key="resume_education">教育程度</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">國立中山大學-社會學系(畢業)</h4>
+              <h4 class="h4 timeline-item-title" data-i18n-key="resume_school">國立中山大學-社會學系(畢業)</h4>
 
               <span>2011 — 2015</span>
 
@@ -385,16 +388,16 @@
               <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <h3 class="h3">工作經歷</h3>
+            <h3 class="h3" data-i18n-key="resume_experience">工作經歷</h3>
           </div>
 
           <ol class="timeline-list">
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">全職自學程式語言</h4>
-              <span>2024/01 — 至今</span>
-              <p class="timeline-text">
+              <h4 class="h4 timeline-item-title" data-i18n-key="exp_selftaught">全職自學程式語言</h4>
+              <span data-i18n-key="exp_selftaught_period">2023/09 — 至今</span>
+              <p class="timeline-text" data-i18n-key="exp_selftaught_desc">
                 透過W3School、MDN、FreeCodeCamp和Codecademy等，自學全端工程師相關程式語言。
               </p>
 
@@ -402,53 +405,45 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">行政人員</h4>
+              <h4 class="h4 timeline-item-title" data-i18n-key="company1_title">行政人員</h4>
               <span>2022/09 — 2023/07</span>
-              <p class="timeline-text">
-                一、社團法人成立。<br>
-                二、高雄市地方型SBIR計畫申請及執行。<br>
-                三、公司內外部活動辦理。<br>
-                四、文具及生產採購。<br>
-                五、主管交代事項。<br>
-              </p>
+                <p class="timeline-text" data-i18n-key="company1__desc1">一、社團法人成立。</p>
+                <p class="timeline-text" data-i18n-key="company1__desc2">二、高雄市地方型SBIR計畫申請及執行。</p>
+                <p class="timeline-text" data-i18n-key="company1__desc3">三、公司內外部活動辦理。</p>
+                <p class="timeline-text" data-i18n-key="company1__desc4">四、文具及生產採購。</p>
+                <p class="timeline-text" data-i18n-key="company1__desc5">五、主管交代事項。</p>
+
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">兼職考生</h4>
+              <h4 class="h4 timeline-item-title" data-i18n-key="exp3_title">兼職考生</h4>
               <span>2019/05 — 2022/09</span>
-              <p class="timeline-text">
-                打工兼職邊準備高普考。
-              </p>
+              <p class="timeline-text" data-i18n-key="exp3_desc">打工兼職邊準備高普考。</p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">研究專員</h4>
+              <h4 class="h4 timeline-item-title" data-i18n-key="company2_title">研究專員</h4>
               <span>2018/11 — 2019/05</span>
-              <p class="timeline-text">
-                一、場地租借與PT招募。<br>
-                二、問卷調查與研究分析。<br>
-                三、禮品採購與支出核銷。<br>
-                四、微電影公開招標與執行。<br>
-              </p>
+              <p class="timeline-text" data-i18n-key="company2__desc1">一、場地租借與PT招募。</p>
+              <p class="timeline-text" data-i18n-key="company2__desc2">二、問卷調查與研究分析。</p>
+              <p class="timeline-text" data-i18n-key="company2__desc3">三、禮品採購與支出核銷。</p>
+              <p class="timeline-text" data-i18n-key="company2__desc4">四、微電影公開招標與執行。</p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">總務人員</h4>
+              <h4 class="h4 timeline-item-title" data-i18n-key="company3_title">總務人員</h4>
               <span>2017/02 — 2018/07</span>
-              <p class="timeline-text">
-                此公司為新創公司。管理部門含我在內共兩人，故承辦事項較多元：<br>
-                一、採購與資產管理。<br>
-                二、員工旅遊與尾牙辦理。<br>
-                三、員工勞健保與出差勤計算。<br>
-                四、建置對外營業分店之POS機、刷卡機與線上金流。<br>
-                五、主管交代事項。<br>
-              </p>
+                <p class="timeline-text" data-i18n-key="company3__desc1">一、採購與資產管理。</p>
+                <p class="timeline-text" data-i18n-key="company3__desc2">二、員工旅遊與尾牙辦理。</p>
+                <p class="timeline-text" data-i18n-key="company3__desc3">三、員工勞健保與出差勤計算。</p>
+                <p class="timeline-text" data-i18n-key="company3__desc4">四、建置對外營業分店之POS機、刷卡機與線上金流。</p>
+                <p class="timeline-text" data-i18n-key="company3__desc5">五、主管交代事項。</p>
 
             </li>
 
@@ -469,7 +464,7 @@
       <article class="portfolio" data-page="作品集">
 
         <header>
-          <h2 class="h2 article-title">作品集</h2>
+          <h2 class="h2 article-title" data-i18n-key="nav_portfolio">作品集</h2>
         </header>
 
         <section class="projects">
@@ -477,23 +472,23 @@
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn>全部</button>
+              <button class="active" data-filter-btn="全部" data-i18n-key="filter_all">全部</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>全端專案</button>
+              <button data-filter-btn="全端專案" data-i18n-key="filter_fullstack">全端專案</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>前端開發</button>
+              <button data-filter-btn="前端開發" data-i18n-key="filter_frontend">前端開發</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>後端開發</button>
+              <button data-filter-btn="後端開發" data-i18n-key="filter_backend">後端開發</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>其他</button>
+              <button data-filter-btn="其他" data-i18n-key="filter_other">其他</button>
             </li>
 
           </ul>
@@ -502,7 +497,7 @@
 
             <button class="filter-select" data-select>
 
-              <div class="select-value">選擇分類</div>
+              <div class="select-value" data-i18n-key="filter_select">選擇分類</div>
 
               <div class="select-icon">
                 <ion-icon name="chevron-down"></ion-icon>
@@ -513,23 +508,23 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item>全部</button>
+                <button data-select-item="全部" data-i18n-key="filter_all">全部</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>全端專案</button>
+                <button data-select-item="全端專案" data-i18n-key="filter_fullstack">全端專案</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>前端開發</button>
+                <button data-select-item="前端開發" data-i18n-key="filter_frontend">前端開發</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>後端開發</button>
+                <button data-select-item="後端開發" data-i18n-key="filter_backend">後端開發</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>其他</button>
+              <li class="select-item">
+                <button data-select-item="其他" data-i18n-key="filter_other">其他</button>
               </li>
 
             </ul>
@@ -548,19 +543,20 @@
                   <img src="./assets/images/project-6/1.jpg" alt="前端開發-1" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>PTCGP卡片收藏追蹤</h3>
-                <p class="project-category">前端開發</p>
+                <h3 class="project-title" data-project-title data-i18n-key="ptcgp_title">PTCGP卡片收藏追蹤</h3>
+                <p class="project-category" data-i18n-key="project_category_font">前端開發</p>
 
                 <div class="modal-project-detail">
                   <img src="./assets/images/project-6/1.jpg" alt="前端開發-1" data-project-photo>
                   <img src="./assets/images/project-6/2.jpg" alt="前端開發-2" data-project-photo>
                   <img src="./assets/images/project-6/3.jpg" alt="前端開發-3" data-project-photo>
                   <div data-project-text>
-                    <ul>使用技術與特點 :
-                      <li> Electron套件 : 將網頁包裝成桌面應用程式</li>
-                      <li> fs套件 : 將資料存放於本地端，並且可以進行兩個不同存檔間的交叉比對</li>
-                      <li> Git : 進行版本控制，每次出新組包時方便更新</li>
-                      <li> 不寫死程式碼，方便(自製小工具)爬蟲程式擴展新卡包資料</li>
+                    <ul>
+                      <p data-i18n-key="project_title">使用技術與特點 :</p>
+                      <li data-i18n-key="ptcgp_desc2"> Electron套件 : 將網頁包裝成桌面應用程式</li>
+                      <li data-i18n-key="ptcgp_desc3"> fs套件 : 將資料存放於本地端，並且可以進行兩個不同存檔間的交叉比對</li>
+                      <li data-i18n-key="ptcgp_desc4"> Git : 進行版本控制，每次出新組包時方便更新</li>
+                      <li data-i18n-key="ptcgp_desc5"> 不寫死程式碼，方便(自製小工具)爬蟲程式擴展新卡包資料</li>
 
                       <li style="list-style-type: none;" class="demoContainer">
                         <a href="https://github.com/XiN-2419/PTCGPCollectionTracker" target="_blank" class="demoBtn githubBtn">Github Repo</a>
@@ -582,8 +578,8 @@
                   <img src="./assets/images/project-1/1.jpg" alt="MERN專案-1" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>Boovago(Booking仿作)</h3>
-                <p class="project-category">MERN專案</p>
+                <h3 class="project-title" data-project-title data-i18n-key="booking_title">Boovago(Booking仿作)</h3>
+                <p class="project-category" data-i18n-key="project_category_MERN">MERN專案</p>
 
                 <div class="modal-project-detail">
                   <img src="./assets/images/project-1/1.jpg" alt="MERN專案-1" data-project-photo>
@@ -593,39 +589,42 @@
                   <img src="./assets/images/project-1/5.jpg" alt="MERN專案-5" data-project-photo>
                   <img src="./assets/images/project-1/6.jpg" alt="MERN專案-6" data-project-photo>
                   <div data-project-text>
-                    <ul> 使用技術與特點 :
-                      <li style="list-style-type: disc;"> MongoDB : 作為資料庫使用</li>
-                      <li style="list-style-type: disc;"> Express : 作為後端伺服器，以RESTful API風格建立完整的新增、刪除、修改和查看功能</li>
-                      <li style="list-style-type: disc;"> React : 透過React Hook渲染頁面</li>
-                      <li style="list-style-type: disc;"> Node.js : 後端伺服器環境以node.js建立</li>
-                      <li style="list-style-type: disc;">使用Git進行版本控制</li>
+                    <ul> 
+                      <p data-i18n-key="project_title">使用技術與特點 :</p>
+                      <li style="list-style-type: disc;" data-i18n-key="booking_desc1"> MongoDB : 作為資料庫使用</li>
+                      <li style="list-style-type: disc;" data-i18n-key="booking_desc2"> Express : 作為後端伺服器，以RESTful API風格建立完整的新增、刪除、修改和查看功能</li>
+                      <li style="list-style-type: disc;" data-i18n-key="booking_desc3"> React : 透過React Hook渲染頁面</li>
+                      <li style="list-style-type: disc;" data-i18n-key="booking_desc4"> Node.js : 後端伺服器環境以node.js建立</li>
+                      <li style="list-style-type: disc;" data-i18n-key="booking_desc5">使用Git進行版本控制</li>
                       <li style="list-style-type: disc;"> 
-                        <ul>註冊和登入系統 :
-                          <li>註冊時，前端會檢查「確認密碼」是否一致，後端會確認名稱與信箱是否與現有帳號重複</li>
-                          <li>註冊後，後端會將密碼透過Bcrypt套件加密，確保資料庫不會直接紀錄密碼</li>
-                          <li>登入後，以JSON Web Token作資訊保存與驗證</li>
+                        <ul>
+                          <p data-i18n-key="booking_desc6">註冊和登入系統 :</p>
+                          <li data-i18n-key="booking_desc7">註冊時，前端會檢查「確認密碼」是否一致，後端會確認名稱與信箱是否與現有帳號重複</li>
+                          <li data-i18n-key="booking_desc8">註冊後，後端會將密碼透過Bcrypt套件加密，確保資料庫不會直接紀錄密碼</li>
+                          <li data-i18n-key="booking_desc9">登入後，以JSON Web Token作資訊保存與驗證</li>
                         </ul>
                       </li>
                       <li style="list-style-type: disc;">
-                        <ul>後台系統
+                        <ul>
+                          <p data-i18n-key="booking_desc10">後台系統</p>
                           <li>
-                            登入後，右上角會出現「後台系統」
-                            <span style="list-style-type: none; color: gray;">可使用「帳號:123；密碼:123」登入；亦可自行註冊帳號後登入</span>
-                            <span style="list-style-type: none; color: gray;">API原先設計需登入為Admin才會出現，由於為Demo版，為了有更多觸及率，故拔除驗證功能</span>
+                            <p data-i18n-key="booking_desc11">登入後，右上角會出現「後台系統」</p>
+                            <span style="list-style-type: none; color: gray;" data-i18n-key="booking_desc12">可使用「帳號:123；密碼:123」登入；亦可自行註冊帳號後登入</span>
+                            <span style="list-style-type: none; color: gray;" data-i18n-key="booking_desc13">API原先設計需登入為Admin才會出現，由於為Demo版，為了有更多觸及率，故拔除驗證功能</span>
                           </li>
-                          <li>具備CRUD功能的飯店管理與帳號管理功能</li>
+                          <li data-i18n-key="booking_desc14">具備CRUD功能的飯店管理與帳號管理功能</li>
                         </ul>
                       </li>
 
                       <li style="list-style-type: none;" class="demoContainer">
                         <a href="https://boovago-frontend.onrender.com/" target="_blank" class="demoBtn">Demo</a>
-                        <a href="https://github.com/XiN-2419/Boovago/tree/FontEnd" target="_blank" class="demoBtn githubBtn">Github前端Repo</a>
-                        <a href="https://github.com/XiN-2419/Boovago/tree/BackEnd" target="_blank" class="demoBtn githubBtn">Github後端Repo</a>
+                        <a href="https://github.com/XiN-2419/Boovago/tree/FontEnd" target="_blank" class="demoBtn githubBtn">Github Frontend Repo</a>
+                        <a href="https://github.com/XiN-2419/Boovago/tree/BackEnd" target="_blank" class="demoBtn githubBtn">Github Backend Repo</a>
                       </li>
-                      <p class="demoText"> *進入網頁後，後端冷啟動約需兩分鐘，敬請靜待後端啟動，以完整網頁體驗</p>
-                      <p class="demoText"> *目前並未於各縣市皆創建飯店，縣市與飯店數量可見首頁「探索台灣」</p>
-                      <p class="demoText"> *未設計響應式網頁，推薦使用1980*1080以上之裝置，可獲得最佳體驗</p>
-                      <p class="demoText" style="font-weight: bold; color: yellow;"> *暫未設置模糊搜尋，地點需完整輸入(如高雄市、台北市)</p>
+                      <p class="demoText" data-i18n-key="booking_desc15"> *進入網頁後，後端冷啟動約需兩分鐘，敬請靜待後端啟動，以完整網頁體驗</p>
+                      <p class="demoText" data-i18n-key="booking_desc16"> *目前並未於各縣市皆創建飯店，縣市與飯店數量可見首頁「探索台灣」</p>
+                      <p class="demoText" data-i18n-key="booking_desc17"> *未設計響應式網頁，推薦使用1980*1080以上之裝置，可獲得最佳體驗</p>
+                      <p class="demoText" style="font-weight: bold; color: yellow;" data-i18n-key="booking_desc18"> *暫未設置模糊搜尋，地點需完整輸入(如高雄市、台北市)</p>
                     </ul>
                   </div>
                 </div>
@@ -644,9 +643,9 @@
                   <img src="./assets/images/project-2/1.jpg" alt="全端專案-2" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>代辦事項清單</h3>
+                <h3 class="project-title" data-project-title data-i18n-key="todolist_title">代辦事項清單</h3>
 
-                <p class="project-category">PERN專案</p>
+                <p class="project-category" data-i18n-key="project_category_PERN">PERN專案</p>
 
                 <div class="modal-project-detail">
                   <img src="./assets/images/project-2/1.jpg" alt="Pern專案-1" data-project-photo>
@@ -660,26 +659,28 @@
                   <img src="./assets/images/project-2/9.jpg" alt="Pern專案-6" data-project-photo>
                   <img src="./assets/images/project-2/10.jpg" alt="Pern專案-6" data-project-photo>
                   <div data-project-text>
-                    <p>代辦事項網頁有兩個版本 : </p>
+                    <p data-i18n-key="todolist_desc1">代辦事項網頁有兩個版本 : </p>
                     <br>
-                    <ul> 版本一(圖1-圖6) - PERN專案 - 使用技術與特點 : 
-                      <li> PostgreSQL : 作為代辦事項資料庫</li>
-                      <li> Express : 作為後端伺服器，以RESTful API風格建立完整的新增、刪除、修改和查看功能</li>
-                      <li> React : 透過React Hook渲染頁面，並以Bootstrap達到響應式網頁設計(RWD)</li>
-                      <li> Node.js : 後端伺服器環境以node.js建立</li>
-                      <li> 使用Git進行版本控制</li>
+                    <ul> 
+                      <p data-i18n-key="todolist_desc2">版本一(圖1-圖6) - PERN專案 - 使用技術與特點 :</p> 
+                      <li data-i18n-key="todolist_desc3"> PostgreSQL : 作為代辦事項資料庫</li>
+                      <li data-i18n-key="todolist_desc4"> Express : 作為後端伺服器，以RESTful API風格建立完整的新增、刪除、修改和查看功能</li>
+                      <li data-i18n-key="todolist_desc5"> React : 透過React Hook渲染頁面，並以Bootstrap達到響應式網頁設計(RWD)</li>
+                      <li data-i18n-key="todolist_desc6"> Node.js : 後端伺服器環境以node.js建立</li>
+                      <li data-i18n-key="todolist_desc7"> 使用Git進行版本控制</li>
                       
                       <li style="list-style-type: none;">
-                        <a href="https://github.com/XiN-2419/PERN-ToDoList-Fontend" target="_blank" class="demoBtn githubBtn">Github前端Repo</a>
-                        <a href="https://github.com/XiN-2419/PERN-ToDoList-Backend" target="_blank" class="demoBtn githubBtn">Github後端Repo</a>
+                        <a href="https://github.com/XiN-2419/PERN-ToDoList-Fontend" target="_blank" class="demoBtn githubBtn">Github Frontend Repo</a>
+                        <a href="https://github.com/XiN-2419/PERN-ToDoList-Backend" target="_blank" class="demoBtn githubBtn">Github Backend Repo</a>
                       </li>
-                      <p class="demoText"> *尚未找到無期限免費方案的PostgreSQL雲端空間，故暫無Demo網頁</p>
+                      <p class="demoText" data-i18n-key="todolist_desc8"> *尚未找到無期限免費方案的PostgreSQL雲端空間，故暫無Demo網頁</p>
                     </ul>
                     <br>
-                    <ul> 版本二(圖7-圖10) - React前端網頁 - 使用技術與特點 : 
-                      <li> LocalStorage : 使用本地端的LocalStorage作為資料庫</li>
-                      <li> React : 透過React Hook渲染頁面</li>
-                      <li> 使用Git進行版本控制</li>
+                    <ul> 
+                      <p data-i18n-key="todolist_desc9">版本二(圖7-圖10) - React前端網頁 - 使用技術與特點 :</p> 
+                      <li data-i18n-key="todolist_desc10"> LocalStorage : 使用本地端的LocalStorage作為資料庫</li>
+                      <li data-i18n-key="todolist_desc11"> React : 透過React Hook渲染頁面</li>
+                      <li data-i18n-key="todolist_desc12"> 使用Git進行版本控制</li>
                       
                       <li style="list-style-type: none;">
                         <a href="https://xin-2419.github.io/todolist-LocalStorage/" target="_blank" class="demoBtn">Demo</a>
@@ -703,20 +704,21 @@
                   <img src="./assets/images/project-3/1.jpg" alt="前端開發-1" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>林新惇的線上履歷</h3>
+                <h3 class="project-title" data-project-title data-i18n-key="onlineResume_title">林新惇的線上履歷</h3>
 
-                <p class="project-category">前端開發</p>
+                <p class="project-category" data-i18n-key="project_category_font">前端開發</p>
 
                 <div class="modal-project-detail">
                   <img src="./assets/images/project-3/1.jpg" alt="前端開發-1" data-project-photo>
                   <img src="./assets/images/project-3/2.jpg" alt="前端開發-2" data-project-photo>
                   <img src="./assets/images/project-3/3.jpg" alt="前端開發-3" data-project-photo>
                   <div data-project-text>
-                    <ul> 使用技術與特點 :
-                      <li> 無第三方套件，沒有模板網頁的既視感!</li>
-                      <li> 由 HTML + CSS + JavaScript 純手刻組成!</li>
-                      <li> 響應式網頁設計，大大小小裝置都可以舒適觀看!</li>
-                      <li> 使用Git進行版本控制，且程式碼設計具擴展性，方便未來持續新增!</li>
+                    <ul> 
+                      <p data-i18n-key="project_title">使用技術與特點 :</p>
+                      <li data-i18n-key="onlineResume_desc1"> 無第三方套件，沒有模板網頁的既視感!</li>
+                      <li data-i18n-key="onlineResume_desc2"> 由 HTML + CSS + JavaScript 純手刻組成!</li>
+                      <li data-i18n-key="onlineResume_desc3"> 響應式網頁設計，大大小小裝置都可以舒適觀看!</li>
+                      <li data-i18n-key="onlineResume_desc4"> 使用Git進行版本控制，且程式碼設計具擴展性，方便未來持續新增!</li>
                     </ul>
                   </dvi>
                 </div>
@@ -735,29 +737,33 @@
                   <img src="./assets/images/project-4/1.jpg" alt="後端開發-1" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>自製小工具</h3>
+                <h3 class="project-title" data-project-title data-i18n-key="tool_title">自製小工具</h3>
 
-                <p class="project-category">後端開發</p>
+                <p class="project-category" data-i18n-key="project_category_back">後端開發</p>
 
                 <div class="modal-project-detail">
                   <img src="./assets/images/project-4/1.jpg" alt="後端開發-1" data-project-photo>
                   <div data-project-text>
-                    <ul><b style="font-size: 1em;">「PTCGP卡片收藏追蹤」爬蟲自動更新卡包資訊</b> - 使用技術與特點 :
-                      <li> axios : 用於抓取網頁資料</li>
-                      <li> cheerio : 用於分析 HTML 結構，並提取目標資料</li>
-                      <li> fs : 將清洗後的資料儲存進卡包資訊</li>
+                    <ul>
+                      <b style="font-size: 1em;" data-i18n-key="tool_desc1">「PTCGP卡片收藏追蹤」爬蟲自動更新卡包資訊</b>
+                      <p data-i18n-key="project_title">使用技術與特點 :</p>
+                      <li data-i18n-key="tool_desc2"> axios : 用於抓取網頁資料</li>
+                      <li data-i18n-key="tool_desc3"> cheerio : 用於分析 HTML 結構，並提取目標資料</li>
+                      <li data-i18n-key="tool_desc4"> fs : 將清洗後的資料儲存進卡包資訊</li>
 
                       <li style="list-style-type: none;">
-                        <a href="https://xin-2419.github.io/XiN-Resume-/" target="_blank" class="noProvideBtn">因爬取特定網頁，故不公開程式</a>
+                        <a href="#" target="_blank" class="noProvideBtn" data-i18n-key="tool_desc5">因爬取特定網頁，故不公開程式</a>
                       </li>
                     </ul>
                     <br>
-                    <ul> <b style="font-size: 1em;">網頁驗證碼自動辨識後填入</b> - 使用技術與特點 :
-                      <li> selenium-webdriver : 用於瀏覽器自動化擷取驗證碼，並於tesseract.js辨識後自動填入</li>
-                      <li> tesseract.js : 用於驗證碼的文字辨識，進行文件數位化和內容提取</li>
+                    <ul> 
+                      <b style="font-size: 1em;" data-i18n-key="tool_desc6">網頁驗證碼自動辨識後填入</b>
+                      <p data-i18n-key="project_title">使用技術與特點 :</p>
+                      <li data-i18n-key="tool_desc7"> selenium-webdriver : 用於瀏覽器自動化擷取驗證碼，並於tesseract.js辨識後自動填入</li>
+                      <li data-i18n-key="tool_desc8"> tesseract.js : 用於驗證碼的文字辨識，進行文件數位化和內容提取</li>
 
                       <li style="list-style-type: none;">
-                        <a href="https://xin-2419.github.io/XiN-Resume-/" target="_blank" class="noProvideBtn">此為個人練習，為避免濫用，故不公開程式</a>
+                        <a href="#" target="_blank" class="noProvideBtn" data-i18n-key="tool_desc9">此為個人練習，為避免濫用，故不公開程式</a>
                       </li>
                     </ul>
                   </dvi>
@@ -777,9 +783,9 @@
                   <img src="./assets/images/project-5/1.jpg" alt="其他-1" loading="lazy">
                 </figure>
 
-                <h3 class="project-title" data-project-title>簡易生產管理(GAS+LineBot)</h3>
+                <h3 class="project-title" data-project-title data-i18n-key="PM_title">簡易生產管理(GAS+LineBot)</h3>
 
-                <p class="project-category">其他</p>
+                <p class="project-category" data-i18n-key="project_category_other">其他</p>
 
                 <div class="modal-project-detail">
                   <img src="./assets/images/project-5/1.jpg" alt="其他-1" data-project-photo>
@@ -789,22 +795,23 @@
                   <div data-project-text>
                     <ul>
                       <li>
-                        這是2022年工作時所寫的小程式。<br>
-                        當時公司生產管理的流程為: 生管人員製單->將Excel上傳NAS->Line通知各部門自行下載。<br>
-                        為了優化這個流程，於是我寫了這支程式。在生管人員新增生產單後，透過Google App Script，將此生產單傳至各部門的各Google Sheets，並且透過Line Bot自動發送訊息。
+                        <p data-i18n-key="PM_desc1">這是2022年工作時所寫的小程式。</p>
+                        <p data-i18n-key="PM_desc2">當時公司生產管理的流程為: 生管人員製單->將Excel上傳NAS->Line通知各部門自行下載。</p>
+                        <p data-i18n-key="PM_desc3">為了優化這個流程，於是我寫了這支程式。在生管人員新增生產單後，透過Google App Script，將此生產單傳至各部門的各Google Sheets，並且透過Line Bot自動發送訊息。</p>
                       </li>
                       <li>
-                        <ul>額外的附加功能:
-                          <li>在「生產單簡表」的部分，可用於讓各部門回報現況，其將透過Google App Script將回報發送至各部門的Google Sheet。</li>
-                          <li>生管人員新增生產單時，會同時在各部門的Google Sheets「日曆總表」建立出貨日期，以方便大家留意出貨期限</li>
-                          <li>「日曆總表」以設定規則，只要更改年份或月份，便會自行調整日期</li>
+                        <ul>
+                          <p data-i18n-key="PM_desc4">額外的附加功能:</p>
+                          <li data-i18n-key="PM_desc5">在「生產單簡表」的部分，可用於讓各部門回報現況，其將透過Google App Script將回報發送至各部門的Google Sheet。</li>
+                          <li data-i18n-key="PM_desc6">生管人員新增生產單時，會同時在各部門的Google Sheets「日曆總表」建立出貨日期，以方便大家留意出貨期限</li>
+                          <li data-i18n-key="PM_desc7">「日曆總表」以設定規則，只要更改年份或月份，便會自行調整日期</li>
                         </ul>
                       </li>
 
                       <li style="list-style-type: none;" class="demoContainer">
                         <a href="https://docs.google.com/spreadsheets/d/1DtVTZDB3XHb7ee5B5gLrXOrtol42wa0kMkDMM2lJRhU/edit?usp=sharing" target="_blank" class="demoBtn">Demo</a>
                       </li>
-                      <p class="demoText">其他部門的Google Sheets和Line Bot，由於離職時已歸還帳號，故無法展示或截圖，請多包涵</p>
+                      <p class="demoText" data-i18n-key="PM_desc8">Google Sheets和Line Bot由於離職時已歸還帳號，故無法展示或截圖，請多包涵</p>
                     </ul>
                   </dvi>
                 </div>

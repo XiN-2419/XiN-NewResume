@@ -346,9 +346,10 @@ main {
   background: var(--onyx);
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
-  width: max-content;
+  /*width: max-content;*/
   padding: 3px 12px;
   border-radius: 8px;
+  word-break: keep-all;
 }
 
 .info_more-btn {
@@ -485,7 +486,17 @@ main {
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
 
-
+.lang-btn {
+  background: var(--onyx);
+  color: var(--white-2);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  padding: 5px 12px;
+  border-radius: 8px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 1px solid var(--jet);
+}
 
 
 /*-----------------------------------*\
