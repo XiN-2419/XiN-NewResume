@@ -187,8 +187,8 @@ const i18n = {
   nav_resume: { zh: "學經歷", en: "Resume" },
   nav_portfolio: { zh: "作品集", en: "Portfolio" },
   // About
-  about_p1: { zh: "大學時因興趣使然，曾修習過C++、Java和MATLAB，以及計算機概論和資料結構。", en: "Studied C++, Java, MATLAB, Computer Fundamentals and Data Structures out of personal interest." },
-  about_p2: { zh: "曾寫過批次檔，方便自動化刪除導致系統無法開啟的log檔；曾為方便公司作業，寫過Google App Script，建立一個簡易的跨部門生產單系統；曾因個人在遊戲平台上買賣需求，自學過Python爬蟲。", en: "Developed batch scripts to auto-delete problematic log files; built a Google App Script–based inter-departmental production order system; self-learned Python for web scraping to support personal trading." },
+  about_p1: { zh: "專精於JavaScript、CSS、HTML等前端技術，曾接觸過C++、JAVA、Python、MATLAB，亦曾學習過計算機概論和資料結構", en: "Proficient in JavaScript, CSS, HTML  and other front-end technologies, with experience in C++, Java, Python, MATLAB, Computer Fundamentals and Data Structures." },
+  about_p2: { zh: "曾寫過批次檔，方便自動化刪除導致系統無法開啟的log檔；曾為方便公司作業，寫過Google App Script，建立一個簡易的跨部門生產單系統；曾因個人買賣需求，自學過Python爬蟲。", en: "Developed batch scripts to auto-delete problematic log files; built a Google App Script–based inter-departmental production order system; self-learned Python for web scraping to support personal trading." },
   about_p3: { zh: "自2023年離職後學習前端程式語言，相關作品可皆展示於「作品集」標籤。", en: "After leaving my job in 2023, I started learning front-end programming languages. Related projects are all displayed in the “Portfolio” tab." },
   label_badges: { zh: "徽章", en: "Badges" },
   label_skills: { zh: "程式語言", en: "Programming Languages" },
@@ -229,11 +229,6 @@ const i18n = {
   filter_other: { zh: "其他", en: "Other" },
   filter_select: { zh: "選擇分類", en: "Select Category" },
   // 專案標題、技術說明
-  project_category_font: { zh: "前端開發", en: "Front-End Development" },
-  project_category_back: { zh: "後端開發", en: "Back-End Development" },
-  project_category_MERN: { zh: "MERN專案", en: "MERN Stack Project" },
-  project_category_PERN: { zh: "PERN專案", en: "PERN Stack Project" },
-  project_category_other: { zh: "其他", en: "Others" },
   project_title: { zh: "使用技術與特點 :", en: "Technologies & Features:" },
   ptcgp_title: { zh: "PTCGP卡片收藏追蹤", en: "PTCGP Card Collection Tracker" },
   ptcgp_desc2: { zh: "Electron套件 : 將網頁包裝成桌面應用程式", en: "Electron: Packaged the web application into a desktop app." },
