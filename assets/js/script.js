@@ -301,11 +301,11 @@ const i18n = {
 };
 
 // 語系狀態
-let currentLang = 'zh';
+let currentLang = 'en';
 
 // 切換函式
 function toggleLanguage() {
-  currentLang = (currentLang === 'en') ? 'en' : 'zh';
+  currentLang = (currentLang === 'zh') ? 'en' : 'zh';
   document.getElementById('lang-toggle').innerText = (currentLang === 'zh') ? '中 / EN' : 'EN / 中';
   
   // 遍歷所有標註元素並替換文字
