@@ -230,6 +230,13 @@ const i18n = {
   filter_select: { zh: "選擇分類", en: "Select Category" },
   // 專案標題、技術說明
   project_title: { zh: "使用技術與特點 :", en: "Technologies & Features:" },
+  stock_title: { zh: "股市即時監測與量化交易", en: "Real-time Stock Market Monitoring and Quantitative Trading" },
+  stock_desc2: { zh: "Node.js : 後端爬蟲與量化交易計算以node.js建立", en: "Node.js: Backend web scraping and quantitative trading calculations are built with Node.js." },
+  stock_desc3: { zh: "React : 透過React Hook渲染頁面", en: "React: Renders pages using React Hooks." },
+  stock_desc4: { zh: "Express : 作為伺服器，負責傳遞後端爬蟲與量化交易訊號給前端", en: "Express: Serves as the server, responsible for transmitting backend web scraping and quantitative trading signals to the frontend." },
+  stock_desc5: { zh: "WebSocket : 讓前端與伺服器保持連線，即時更新最新資訊", en: "WebSocket: Allows the frontend to maintain a persistent connection with the server for real-time information updates." },
+  stock_desc6: { zh: "Git : 使用Git進行版本控制", en: "Used Git for version control." },
+  stock_desc7: { zh: "牽涉金錢交易，故不公開程式", en: "Given that it involves financial transactions, the program code is not publicly disclosed." },
   ptcgp_title: { zh: "PTCGP卡片收藏追蹤", en: "PTCGP Card Collection Tracker" },
   ptcgp_desc2: { zh: "Electron套件 : 將網頁包裝成桌面應用程式", en: "Electron: Packaged the web application into a desktop app." },
   ptcgp_desc3: { zh: "fs套件 : 將資料存放於本地端，並且可以進行兩個不同存檔間的交叉比對", en: "fs module: Stored data locally and allowed for cross-comparison between two different save files." },
@@ -294,7 +301,7 @@ const i18n = {
 };
 
 // 語系狀態
-let currentLang = 'zh';
+let currentLang = 'en';
 
 // 切換函式
 function toggleLanguage() {
